@@ -1,0 +1,39 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  color: rgb(255, 255, 255);
+  background-color: black;
+}
+
+ body {
+  margin: 0;
+  display: flex;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: black;
+}
+
+.events{
+  background-color: rgb(255, 3, 3);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+
+
+}
+
+.event-wrapper{
+  width:250px;
+  height: 350px;
+  margin: 10px;
+  background-color: aqua;
+  font-size: 5px;
+  border-radius: 5%;
+
+}
+
+.event{
+  display: inline-block;
+}
