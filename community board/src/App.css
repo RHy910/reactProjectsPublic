@@ -1,5 +1,5 @@
 #root {
-  max-width: 1280px;
+  max-width: fit-content;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
@@ -10,30 +10,37 @@
 
  body {
   margin: 0;
-  display: flex;
+  display: grid;
   min-width: 320px;
   min-height: 100vh;
   background-color: black;
 }
 
+.tittle{
+  color: blueviolet;
+  text-shadow: 0 0 10px #fff;
+}
 .events{
   background-color: rgb(255, 3, 3);
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-between;
+  
+  
 
 
 }
 
 .event-wrapper{
-  width:250px;
-  height: 350px;
-  margin: 10px;
   background-color: aqua;
-  font-size: 5px;
+  margin: auto;
   border-radius: 5%;
-
+  margin-bottom: 25px;
 }
 
 .event{
   display: inline-block;
+  width: 380px;
 }
+

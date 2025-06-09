@@ -5,14 +5,14 @@ const Event = (props)=>{
         <div className="event-wrapper">
             <div className="event">
                 <img src={props.image} style={{
-                    width: '100%',
-                    height: '100%',
+                    width: "380px",
+                    height: '480px',
                     objectFit: 'cover',
                 }}></img>
                 
-                <h1>{props.name}</h1>
-                <h1>{props.type}</h1>
-                <button style={{
+                <h3>{props.name}</h3>
+                <h4>{props.type}</h4>
+                <a href={props.website}><button style={{
                     padding: '10px 16px',
                     fontSize: '16px',
                     backgroundColor: '#007bff',
@@ -21,7 +21,7 @@ const Event = (props)=>{
                     borderRadius: '6px',
                     cursor: 'pointer',
                    
-                }}>{props.menu}</button>
+                }}>{props.menu}</button></a>
                 </div>
         </div>
     )
