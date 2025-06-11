@@ -5,7 +5,8 @@ import Event from "/src/event.jsx";
 const Events = (props) => {
 
     const eventList = [
-        {image: "https://wellenpark.com/wp-content/uploads/2024/03/3.png", name: "Wellen Park Fresh Harvest Farmers Market", type: "Fresh fruit, vegetables, seafood & plants", menu: "view vendors", website: "https://wellenpark.com/events/fresh-harvest-farmers-market/"},
+        
+        {image: "https://wellenpark.com/wp-content/uploads/2024/03/3.png", name: "Wellen Park Fresh Harvest  Market", type: "Fresh fruit, vegetables, seafood & plants", menu: "view vendors", website: "https://wellenpark.com/events/fresh-harvest-farmers-market/"},
 
         {image: "https://cdn.pixabay.com/photo/2016/06/03/14/35/cherries-1433525_640.jpg", name: "Siesta Key Farmers Market", type: "Organic produce, local crafts & boutique goods", menu: "view vendors", website: "https://www.visitsarasota.com/article/bounty-farmers-markets-found-sarasota-county"},
 

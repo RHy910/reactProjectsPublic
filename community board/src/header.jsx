@@ -1,16 +1,17 @@
 import React from "react";
-import title from './assets/images/popuptitle.webp'
+import fruit from './assets/images/fruit.png'
 
 const Header = ()=>{
     return(
-        <div class="image-container">
-            <img src={title} alt="POPUPS AND FARMERS MARKETS">
-                <div class="overlay-text">
-                    POPUPS AND FARMERS MARKETS
+        <>
+            <img src={fruit} style={{
+                height:"200px"}}></img>
+            <div class="header-text-container">
+                <div class="header-text">
+                    <h1>Farmers markets and pop ups</h1>
                 </div>
-            </img>
-        </div>
-
+            </div>
+        </>
     )
 }
 

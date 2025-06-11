@@ -14,14 +14,9 @@ function App() {
 
   return (
     <>
-      <h3>hi hello</h3>
-      {/* <Header/> */}
+    
+      <Header/>
       <Events/>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 10)}>
-          count is {count}
-        </button>
-      </div>
       
     </>
   )
