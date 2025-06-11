@@ -5,20 +5,10 @@ Each card surfaces key details at a glance, and the layout flexes smoothly from 
 
 
 <p >
-  <img src="" alt="https://i.imgur.com/IQqWeOj.gif" width="700"/>
+  <img src="./src/assets/images/community board.gif" alt="" width="700"/>
 </p>
 
----
 
-## 📑 Table of Contents
-1. [Features](#features)
-2. [Demo](#demo)
-3. [Setup](#setup)
-4. [Usage](#usage)
-5. [Tech Stack](#tech-stack)
-6. [Folder Structure](#folder-structure)
-7. [Contributing](#contributing)
-8. [License](#license)
 
 ---
 
