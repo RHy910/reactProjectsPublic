@@ -5,7 +5,7 @@ Each card surfaces key details at a glance, and the layout flexes smoothly from 
 
 
 <p >
-  <img src="https://imgur.com/a/RZbLtWz" alt="Animated walkthrough of the Community Board project" width="700"/>
+  <img src="" alt="https://i.imgur.com/IQqWeOj.gif" width="700"/>
 </p>
 
 ---
