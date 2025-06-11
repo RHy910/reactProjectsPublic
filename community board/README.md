@@ -3,9 +3,8 @@
 A responsive React/Vite web app that showcases **10+ curated resources/events** for our community in an easy-to-scan card grid.  
 Each card surfaces key details at a glance, and the layout flexes smoothly from desktop down to mobile.
 
-> **Replace the GIF below with your own walkthrough before submitting!**
 
-<p align="center">
+<p >
   <img src="https://imgur.com/a/RZbLtWz" alt="Animated walkthrough of the Community Board project" width="700"/>
 </p>
 
@@ -32,8 +31,8 @@ Each card surfaces key details at a glance, and the layout flexes smoothly from 
 | ≥ 10 resource/event cards | ☑️ |
 | Organized card layout (CSS Grid / Flex) | ☑️ |
 | Card shows key info (title, date, etc.) | ☑️ |
-| **Stretch —** link/button on every card | ⬜ |
-| **Stretch —** fully responsive mobile design | ⬜ |
+| **Stretch —** link/button on every card | ☑️ |
+
 
 ---
 
